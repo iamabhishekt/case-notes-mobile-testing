@@ -5,7 +5,7 @@ Given('Patient have created a appointment successfully', function() {
   // Code to create an appointment for the patient
 });
 
-When('the patient is trying to see/review the appointments', function() {
+When('the patient is trying to view the appointments', function() {
   // Code to navigate to the page for viewing appointments
 });
 

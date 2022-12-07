@@ -16,7 +16,3 @@ Given('User enter through appointment lists option', function() {
 Then('Case Manager click on update appointment', function() {
   // Code to allow the case manager to click on the update appointment button
 });
-
-Given('Case manager will be able to update patient Details and mark a signature after update the details of the patient after the visit', function() {
-  // Code to verify that the case manager can update the patient's details and mark a signature after updating the details
-});

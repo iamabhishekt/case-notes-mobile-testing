@@ -1,26 +1,26 @@
 const assert = require('assert');
 const { Before, Given, When, Then} = require('@cucumber/cucumber');
 
-Given('Patient already scheduled an appointment with doctor', function() {
-  // Code to create an appointment for a patient with a doctor
+Given('doctor has been logged in', function() {
+  // Check if the user is logged in and has the "doctor" role
 });
 
-When('User select a role as Doctor', function() {
-  // Code to select the role of doctor for the user
+Given('the patient has already scheduled an appointment with the doctor', function() {
+  // Check if the appointment exists in the system and is scheduled with the doctor
 });
 
-When('User enter through appointment lists option', function() {
-  // Code to navigate to the page for viewing appointment lists
+When('the appointment list page has been navigated by doctor', function() {
+  // Navigate to the appointment list page
 });
 
-Then('Doctor view list of all patient\'s information', function() {
-  // Code to verify that the doctor can view the list of patients and their information
+When('clicks on the selected patient\'s appointment details', function() {
+  // Click on the selected patient's appointment details
 });
 
-Then('while click on particular patient details, doctor will be able to access Appointment Details', function() {
-  // Code to verify that the doctor can access the appointment details for a particular patient
+Then('the doctor should be able to view the patient\'s appointment details', function() {
+  // Check if the doctor can view the patient's appointment details
 });
 
-Then('Doctor will know what to expect before patient appointments', function() {
-  // Code to verify that the doctor knows what to expect before a patient's appointment
+Then('the doctor should be able to access information about the patient and the appointment', function() {
+  // Check if the doctor can access information about the patient and the appointment
 });

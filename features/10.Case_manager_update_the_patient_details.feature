@@ -5,4 +5,3 @@ Feature: Case manager update the patient details
     When User select a role as Case Manager
     And User enter through appointment lists option
     Then Case Manager click on update appointment
-    And  Case manager will be able to update patient Details and mark a signature after update the details of the patient after the visit.

@@ -1,9 +1,9 @@
-Feature: case manager edit the Appointment details
-
-  Scenario: Check case manager is able to change the appointment details entered on the system
-    Given Patient already scheduled an appointment with doctor
-    When User select a role as Case Manager
-    And User enter through appointment lists option
-    Then Case Manager click on edit appointment
-    And while click on particular patient details, Case manager will be able to edit Appointment Details
-    And Case manager will able to change the appointment details entered on the system to correct any inaccuracies in the report
+Feature: Case Manager Edit Appointment Details
+  As a case manager, I want to be able to change the details of an appointment that has been entered into the system.
+  
+  Scenario: Check Case Manager Can Edit Appointment Details
+    Given I am logged in to the case management system as a case manager
+    When I access the details of an appointment
+    And I make changes to the date, time, location, or other details of the appointment
+    Then I should be able to save the changes to the appointment
+    And the updated details should be reflected in the system

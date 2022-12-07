@@ -1,9 +1,13 @@
 Feature: Doctor accessing the patient information
+  As a Doctor
+  I want to access a patient's appointment details
+  So that I can prepare for the appointment and provide the best care for the patient
 
-  Scenario: Check Doctor is able to access patient information for appointment
-    Given Patient already scheduled an appointment with doctor
-    When User select a role as Doctor
-    And User enter through appointment lists option
-    Then Doctor view list of all patient's information
-    And while click on particular patient details, doctor will be able to access Appointment Details .
-    And Doctor will know what to expect before patient appointments
+Scenario: Check Doctor is able to access patient information for appointment
+Given doctor has been logged in
+And the patient has already scheduled an appointment with the doctor
+When the appointment list page has been navigated by doctor
+And clicks on the selected patient's appointment details
+Then the doctor should be able to view the patient's appointment details
+And the doctor should be able to access information about the patient and the appointment
+

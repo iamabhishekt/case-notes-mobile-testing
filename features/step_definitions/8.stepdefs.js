@@ -1,26 +1,22 @@
 const assert = require('assert');
 const { Before, Given, When, Then} = require('@cucumber/cucumber');
 
-Given('Patient already scheduled an appointment with doctor', function() {
-  // Code to create an appointment for a patient with a doctor
+Given("I am logged in to the case management system as a case manager", function() {
+  // Code to log in as a case manager goes here
 });
 
-When('User select a role as Doctor', function() {
-  // Code to select the role of doctor for the user
+When("I access the details of an appointment", function() {
+  // Code to access the details of an appointment goes here
 });
 
-When('User enter through appointment lists option', function() {
-  // Code to navigate to the page for viewing appointment lists
+When("I make changes to the date, time, location, or other details of the appointment", function() {
+  // Code to make changes to the appointment details goes here
 });
 
-Then('Doctor click on edit appointment', function() {
-  // Code to allow the doctor to click on the edit appointment button
+Then("I should be able to save the changes to the appointment", function() {
+  // Code to save the changes to the appointment goes here
 });
 
-Then('while click on particular patient details, Doctor will be able to edit Appointment Details', function() {
-  // Code to verify that the doctor can edit the appointment details for a particular patient
-});
-
-Then('Doctor will able to change the appointment details entered on the system to correct any kind of inaccuracies in the report', function() {
-  // Code to verify that the doctor can change the appointment details on the system to correct any inaccuracies
+Then("the updated details should be reflected in the system", function() {
+  // Code to check that the updated details are reflected in the system goes here
 });

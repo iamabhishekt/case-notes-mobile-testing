@@ -1,22 +1,30 @@
 const assert = require('assert');
 const { Before, Given, When, Then} = require('@cucumber/cucumber');
 
-Given('Patient already scheduled an appointment with doctor', function() {
-  // Code to check if the patient has already scheduled an appointment with the doctor
+Given('I am logged in as a doctor', function() {
+  // Check if the user is logged in as a doctor
+  // const isDoctor = checkIfDoctor();
+  // assert(isDoctor, 'Expected the user to be a doctor but they were not');
 });
 
-When('User select a role as Doctor', function() {
-  // Code to select the user role as Doctor
+When('appointment section has been accessed by doctor', function() {
+  // Navigate to the appointments page
+  // navigateToAppointmentsPage();
 });
 
-When('User enter through appointment lists option', function() {
-  // Code to navigate to the appointment list page
+When('I select an appointment to delete', function() {
+  // Select an appointment from the list
+  // const appointment = selectAppointment();
+  // assert(appointment, 'Expected to find an appointment to delete but none were found');
 });
 
-Then('Doctor click on edit appointment', function() {
-  // Code to click on the edit appointment button
+When('The deletion has been confirmed by doctor', function() {
+  // Confirm the deletion of the selected appointment
+  // confirmDeletion();
 });
 
-Then('while click on particular patient details, doctor will be able to delete the Appointment Details successfully.', function() {
-  // Code to delete the appointment details for a particular patient
+Then('The appointment should be removed from the system', function() {
+  // Check if the selected appointment has been removed from the system
+  // const appointmentExists = checkIfAppointmentExists(appointment);
+  // assert(!appointmentExists, 'Expected the appointment to be removed from the system but it still exists');
 });
