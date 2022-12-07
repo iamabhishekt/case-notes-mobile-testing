@@ -1,0 +1,265 @@
+const assert = require('assert');
+const { Before, Given, When, Then} = require('@cucumber/cucumber');
+
+//1
+Given("User select a role as Doctor", function() {
+  // Code to select the role of Doctor
+});
+
+When("User Enter as Appointment list", function() {
+  // Code to navigate to the appointment list page
+});
+
+Then("Doctor view a calendar of his patients appointment", function() {
+  // Code to verify that the Doctor is able to view a calendar of their patients' appointments
+});
+
+Given("Informed about the visits that need to make on a specific day", function() {
+  // Code to verify that the Doctor is informed about the visits they need to make on a specific day
+});
+
+//2
+Given("User Enter with Appointment Screen", function() {
+  // Code to navigate to the appointment screen
+});
+
+When("Search by Day and Date", function() {
+  // Code to allow the user to search for appointments by day and date
+});
+
+Given("Scroll to check the appointments", function() {
+  // Code to allow the user to scroll through the list of appointments
+});
+
+Then("Validate the appointments information is accurate", function() {
+  // Code to verify that the information for the appointments is accurate
+});
+
+//3
+Given("User select a role as Case Manager", function() {
+  // Code to select the role of Case Manager
+});
+
+When("User Enter as Appointment list", function() {
+  // Code to navigate to the appointment list page
+});
+
+Then("Case Manager view a appointment calendar", function() {
+  // Code to verify that the Case Manager is able to view the appointment calendar
+});
+
+Given("Informed about the visits to doctor and patients that need to make on a specific day", function() {
+  // Code to verify that the Case Manager is informed about the visits to doctor and patients they need to make on a specific day
+});
+
+//4
+Given("Patient have created a appointment successfully", function() {
+  // Code to verify that the patient has successfully created an appointment
+});
+
+When("the patient is trying to see/review the appointments", function() {
+  // Code to allow the patient to view their appointment details
+});
+
+Then("the patient will be able to see the created appointment details", function() {
+  // Code to verify that the patient is able to view the details of their appointment
+});
+
+Given("patient will be able to review the same", function() {
+  // Code to verify that the patient is able to review their appointment details
+});
+
+//5
+Given('Patient have created a appointment successfully', function() {
+  // Code to create an appointment for the patient
+});
+
+When('the patient is trying to see/review the appointments', function() {
+  // Code to navigate to the page for viewing appointments
+});
+
+Then('the patient will be able to see the created appointment details', function() {
+  // Code to verify that the patient can see the details of their appointment
+});
+
+Then('patient will be able to review the same', function() {
+  // Code to verify that the patient can review their appointment
+});
+
+//6
+Given('Available Time Slots of doctors', function() {
+  // Code to retrieve the available time slots for doctors
+});
+
+When('the patient is able to schedule the appointments with appropriate doctor', function() {
+  // Code to allow the patient to schedule an appointment with a doctor
+});
+
+Then('the patient will be able to meet with doctor at a particular time', function() {
+  // Code to verify that the patient can meet with the doctor at the scheduled time
+});
+
+Then('the patient will be able to receive treatment perception of their illness', function() {
+  // Code to verify that the patient can receive treatment for their illness
+});
+
+//7
+Given('Patient already scheduled an appointment with doctor', function() {
+  // Code to create an appointment for a patient with a doctor
+});
+
+When('User select a role as Doctor', function() {
+  // Code to select the role of doctor for the user
+});
+
+When('User enter through appointment lists option', function() {
+  // Code to navigate to the page for viewing appointment lists
+});
+
+Then('Doctor view list of all patient\'s information', function() {
+  // Code to verify that the doctor can view the list of patients and their information
+});
+
+Then('while click on particular patient details, doctor will be able to access Appointment Details', function() {
+  // Code to verify that the doctor can access the appointment details for a particular patient
+});
+
+Then('Doctor will know what to expect before patient appointments', function() {
+  // Code to verify that the doctor knows what to expect before a patient's appointment
+});
+
+//8
+Given('Patient already scheduled an appointment with doctor', function() {
+  // Code to create an appointment for a patient with a doctor
+});
+
+When('User select a role as Doctor', function() {
+  // Code to select the role of doctor for the user
+});
+
+When('User enter through appointment lists option', function() {
+  // Code to navigate to the page for viewing appointment lists
+});
+
+Then('Doctor click on edit appointment', function() {
+  // Code to allow the doctor to click on the edit appointment button
+});
+
+Then('while click on particular patient details, Doctor will be able to edit Appointment Details', function() {
+  // Code to verify that the doctor can edit the appointment details for a particular patient
+});
+
+Then('Doctor will able to change the appointment details entered on the system to correct any kind of inaccuracies in the report', function() {
+  // Code to verify that the doctor can change the appointment details on the system to correct any inaccuracies
+});
+
+//9
+Given('Patient already scheduled an appointment with doctor', function() {
+  // Code to create an appointment for a patient with a doctor
+});
+
+When('User select a role as Doctor', function() {
+  // Code to select the role of doctor for the user
+});
+
+When('User enter through appointment lists option', function() {
+  // Code to navigate to the page for viewing appointment lists
+});
+
+Then('Doctor click on edit appointment', function() {
+  // Code to allow the doctor to click on the edit appointment button
+});
+
+Then('while click on particular patient details, Doctor will be able to edit Appointment Details', function() {
+  // Code to verify that the doctor can edit the appointment details for a particular patient
+});
+
+Then('Doctor will able to change the appointment details entered on the system to correct any kind of inaccuracies in the report', function() {
+  // Code to verify that the doctor can change the appointment details on the system to correct any inaccuracies
+});
+
+//10
+Given('Patient already visited for an appointment with doctor', function() {
+  // Code to create an appointment for a patient with a doctor and mark the appointment as visited
+});
+
+When('User select a role as Case Manager', function() {
+  // Code to select the role of case manager for the user
+});
+
+When('User enter through appointment lists option', function() {
+  // Code to navigate to the page for viewing appointment lists
+});
+
+Then('Case Manager click on update appointment', function() {
+  // Code to allow the case manager to click on the update appointment button
+});
+
+Then('Case manager will be able to update patient Details and mark a signature after update the details of the patient after the visit', function() {
+  // Code to verify that the case manager can update the patient's details and mark a signature after updating the details
+});
+
+//11
+// Define the step definitions
+Given('Patient already visited for an appointment with doctor', function() {
+  // Code to check if the patient has already visited the doctor for an appointment
+});
+
+When('User select a role as Doctor', function() {
+  // Code to select the user role as Doctor
+});
+
+When('User enter through appointment lists option', function() {
+  // Code to navigate to the appointment list page
+});
+
+Then('Doctor click on update appointment', function() {
+  // Code to click on the update appointment button
+});
+
+Then('Doctor will be able to update patient Details and mark a signature after update the details of the patient after the visit.', function() {
+  // Code to update the patient details and mark a signature
+});
+
+//12
+// Define the step definitions
+Given('Patient already scheduled an appointment with doctor', function() {
+  // Code to check if the patient has already scheduled an appointment with the doctor
+});
+
+When('User select a role as Case Manager', function() {
+  // Code to select the user role as Case Manager
+});
+
+When('User enter through appointment lists option', function() {
+  // Code to navigate to the appointment list page
+});
+
+Then('Case Manager click on edit appointment', function() {
+  // Code to click on the edit appointment button
+});
+
+Then('while click on particular patient details, Case manager will be able to delete the Appointment Details successfully.', function() {
+  // Code to delete the appointment details for a particular patient
+});
+
+//13
+Given('Patient already scheduled an appointment with doctor', function() {
+  // Code to check if the patient has already scheduled an appointment with the doctor
+});
+
+When('User select a role as Doctor', function() {
+  // Code to select the user role as Doctor
+});
+
+When('User enter through appointment lists option', function() {
+  // Code to navigate to the appointment list page
+});
+
+Then('Doctor click on edit appointment', function() {
+  // Code to click on the edit appointment button
+});
+
+Then('while click on particular patient details, doctor will be able to delete the Appointment Details successfully.', function() {
+  // Code to delete the appointment details for a particular patient
+});
